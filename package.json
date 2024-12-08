@@ -1,15 +1,10 @@
 {
-    "name": "bathman-coding-challenges",
+    "name": "bathman-dp",
     "version": "1.0.0",
-    "description": "John Crickett's Coding Challenges",
+    "description": "Dynamic Programming",
     "scripts": {
-      "lint": "eslint --ext .ts .",
-      "prettier-format": "prettier --config .prettierrc **/*.ts --write",
-      "test": "jest",
       "build": "tsc -p .",
-      "watch": "tsc -p . --watch",
-      "run": "node ./build/index.js",
-      "cp:26": "mkdir -p build/2/default-files/ && cp -n src/2/default-files/* build/2/default-files/"
+      "dev": "nodemon"
     },
     "keywords": [],
     "author": "",
@@ -33,7 +28,8 @@
       "redlock": "^4.2.0",
       "ts-node": "^10.9.1",
       "uuid": "^9.0.1",
-      "winston": "^3.10.0"
+      "winston": "^3.10.0",
+      "nodemon": "^3.1.7"
     },
     "devDependencies": {
       "@babel/core": "^7.22.9",
